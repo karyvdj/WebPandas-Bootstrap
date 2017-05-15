@@ -1,0 +1,23 @@
+body{
+  background: lightblue;
+}
+header{
+  background: #FFE875;
+  padding: 1%;
+}
+header img{
+  width: 4%;
+}
+.fotos{
+  margin: 3%;
+}
+.fotos img{
+  width: 100%;
+}
+.parrafo{
+  text-align: justify;
+  margin: 3%;
+}
+.btn-default{
+  background: #62CCA6;
+}
