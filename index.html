@@ -12,14 +12,14 @@
   <body>
     <header class="container-fluid">
       <nav class="row">
-        <section class="col-md-10 col-md-offset-1 navegador">
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation"><a href="#">Inicio</a></li>
+        <section class="col-md-10 col-md-offset-1 navegador page-header">
+          <ul class="nav nav-pills pull-right white">
+            <li role="presentation" class="active"><a href="#">Inicio</a></li>
             <li role="presentation"><a href="#">Pandas</a></li>
             <li role="presentation"><a href="#">Historia</a></li>
             <li role="presentation"><a href="#">Extinción</a></li>
           </ul>
-          <img src="assets/img/panda-icon.ico" alt="">
+          <h3 class="white">Mr. Panda hipster</h3>
         </section>
       </nav>
     </header>
@@ -27,16 +27,20 @@
     <article class="container fotos">
       <section class="row">
         <div class="col-md-3">
-            <img src="assets/img/img6.jpg" alt="panda1" class="thumbnail">
+            <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img src="assets/img/img4.jpg" alt="panda1" class="thumbnail">
         </div>
         <div class="col-md-3">
-            <img src="assets/img/img4.jpg" alt="panda2" class="thumbnail">
+            <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img src="assets/img/img3.jpg" alt="panda2" class="thumbnail">
         </div>
         <div class="col-md-3">
-          <img src="assets/img/img1.jpg" alt="panda2" class="thumbnail">
+          <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <img src="assets/img/img2.jpg" alt="panda2" class="thumbnail">
         </div>
         <div class="col-md-3">
-            <img src="assets/img/img2.jpg" alt="panda2" class="thumbnail">
+            <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img src="assets/img/img1.jpg" alt="panda2" class="thumbnail">
         </div>
       </section>
     </article>
@@ -60,7 +64,7 @@
     <article class="container parrafo">
       <section class="row marketing">
         <div class="col-md-5 col-md-offset-1">
-          <p class="parrafo">
+          <p class="parrafo lead">
               Kary Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.Lorem Ipsum
               ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor
               (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los
@@ -72,7 +76,7 @@
             </p>
          </div>
          <div class="col-md-5">
-           <p class="parrafo">
+           <p class="parrafo lead">
                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.Lorem Ipsum
                ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor
                (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los
@@ -85,5 +89,13 @@
          </div>
       </section>
     </article>
+
+    <footer class="container-fluid">
+      <section class="row">
+        <p class="col-md-12 panel-footer">
+          Copyright © 2017
+        </p>
+      </section>
+    </footer>
   </body>
 </html>

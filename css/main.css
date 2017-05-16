@@ -1,12 +1,16 @@
-body{
-  background: lightblue;
-}
+
 header{
-  background: #FFE875;
-  padding: 1%;
+  background: #A80874;
+  padding: 1.5%;
 }
 header img{
   width: 4%;
+}
+.white , a{
+  color: white;
+}
+a:hover{
+  color: #337ab7;
 }
 .fotos{
   margin: 3%;
@@ -19,5 +23,24 @@ header img{
   margin: 3%;
 }
 .btn-default{
-  background: #62CCA6;
+  background: #038EBC;
+  border-radius: 30px;
+  border: 2px solid white;
+  color: white;
+  font-size: 1.3em;
+}
+.btn-default:hover{
+  background: #AB4695;
+  color: white;
+}
+.parrafo p{
+  font-size:1.2em;
+  line-height: 1.5;
+
+}
+.panel-footer{
+  text-align: center;
+  padding: 2%;
+  background: #47ACCE;
+  color:white;
 }
